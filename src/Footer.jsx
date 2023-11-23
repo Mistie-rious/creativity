@@ -6,15 +6,16 @@ import insta  from './assets/insta.png'
 
 const Footer = () => {
   return (
-    <footer className ="flex justify-between font-Inter p-8 bg-slate-400 ">
+    <footer className ="flex justify-between font-Inter p-8 bg-indigo-200 ">
        
 
         
         <div >COPYRIGHT © 2023 MISTURA AND ABUNDANCE</div>
-        
-        <img src={facebook} width={30}></img>
-        <img src={insta} width={30}></img>
+        <div className='flex'>
+        <img className='mr-7' src={facebook} width={30}></img>
+        <img  className='mr-7' src={insta} width={30}></img>
         <img src={youtube} width={30}></img>
+        </div>
    
     </footer>
   )
